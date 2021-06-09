@@ -1,17 +1,9 @@
 language: cpp
 
-compiler:
-  - clang
-  - gcc
-
 script:
-- cd solver_application
-- cmake .
-- make
-- cd ..
-- cd hello_world_application
-- cmake .
-- make
+- cd solver_application/
+- cmake . && cmake --build . && cmake --build . --target package
+- cmake . && cmake --build . && cmake --build . --target package_source
 
 addons:
   apt:
@@ -21,3 +13,4 @@ addons:
       - cmake
       - cmake-data
       - mingw-w64
+      - rpm

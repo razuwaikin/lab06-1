@@ -1,9 +1,0 @@
-Architecture: 
-Description: What's up, guys? :-)
-Maintainer: Nightmare
-Package: solver
-Priority: optional
-Section: devel
-Version: 0.1.1
-Installed-Size: 34
-
