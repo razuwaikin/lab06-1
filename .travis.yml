@@ -19,7 +19,7 @@ addons:
 deploy:
   provider: releases
   api_key:
-   secure: "rCbJqGfKoZyE3lM7/0qN7Nmdekts1kxCd2PEn2rHTboxsIF/IaROUco0JMTEiawv5iKkuRD0s/dN25Q8o0epgYcGn51jLbCm2CXxUZMHg33LtELbJf7YlLjicC/94E2cAv20A/epKLrA1bjLRLswLxpzxsGJbnEbHaAoWTl6BQXxEHROu4Oi8mp/5j/wthTlr1H66Q/7fUHfV08msxitDXf/uNWBazawG+UIOSb/CMOgVdcnEx9QTPDCOb4H3O1npL+0fXfY6Y//2BapBE+fHPdMvm6he7aBoZg28Ig44a8lKTFPy2MstjpPOHP63LRRhLeFidkAP0pRn6304VdsglPNZHXy4kbN1onoYOxr4TmQAWpVR0RwgAGLVmPu6OzRiXhsYI4cYPlg+BU6fu+ILO6YZMszkrziqeu6xIiKRa+WK/DHmFG91vxtEdXhCNVwOSozUWh4gumetohBCu/NH5CUGPHBEHvxyIBZESW2vPT8QOqL8HsCvbRCiU23Zs9EgYFjfF3tSNCuZHerhqWgFihcmT38ogS4v0idYkcfQEJyishiVB5pxfWAbuU/2zxueTNUWIsz8b8OcO/TiC3XlXX5TxLeoNaBGgsvcb9okMamIV+GJtLAKs71ri+T/+jNDMT7G4fIN3k1dSnlb+yRSefkHQdrbZSt+tjijXftab4="
+   secure: $GITHUB_TOKEN
   file: /home/travis/build/Berendei-Jr/lab06/_build/solver-0.1.0.0-Linux.deb
   skip_cleanup: true
   on:
