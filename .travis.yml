@@ -16,7 +16,7 @@ addons:
       - rpm
 
 deploy:
-provider: releases
+#provider: releases
   #api_key: 511c55c0279681a2cb711744f1fb6db5dd470db1
   #file: "home/travis/build/Berendei-Jr/lab06/_build/print-0.1.0.0-Linux.deb"
   skip_cleanup: true
