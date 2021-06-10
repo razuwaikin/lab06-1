@@ -20,7 +20,7 @@ deploy:
   provider: releases
   api_key:
     secure: bFcWj7BPZyb+NhReoQdHgNGGLN5T+Bqvdv2uc/eOCC25g72LzzJ5ip496v6lPAFdhbjbgqpjz/cFfbftHsbH01lcogWpXSZc5Aan4uWXsHc4Om2Jj1mpdvODYMPH7giy+y4+MxQKPF+0sq5BwJPtyGh7iUKbv1Er2OTQC6LPja/ja6gSGlSgMG08ebR/uYsBLySisBS9Yus98WMgB1xH1F5RuWgJV1mg6R69CncMaMj6hRFwnObLIYUSTM55xce2Y3Yuthd8vYGmcsbVOTIPjTTdqJ1ZD9URMDBQeC76EI4zyY/C0AB3rgzU/Av5FDpeq2sxCqgEmaZo1ZDtTlMoT/sNvsV67cgp9WtIOlq+4EiLqOc/QwDU7Soc1TjEL3+2vQZRZLfkFQkxE6Whk8Mxzpt4AjES8Q8vXELA5g4iPqP9gGRjN/VEZOrSv8eECsNouMFrYzOTzmNccmS/fZecWwqwzLsBKbRdt4TI3d86Js6aGcAYiW9AjgyYSml/cLKEj18bIe+XDuwH3zGlHx3C+OV9wCbtw0GWS66Y29Rz1H6ykK5QOiN28FWD8pA4fM3w2LRO09s9LqK7EOfM4c9m3tEobQHyEQWFE4Nha//++20KsLKDX36A7dv43QrZQWpEaYWBV05xXNjrp53vBxBUq1DwijGvIHtf73T+ve4m9Ik=
- # file: "/home/travis/build/Berendei-Jr/lab06/_build/print-0.1.0.0-Linux.deb"
+  file: /home/travis/build/Berendei-Jr/lab06/_build/solver-0.1.0.0-Linux.deb
   skip_cleanup: true
   on:
     tags: true
